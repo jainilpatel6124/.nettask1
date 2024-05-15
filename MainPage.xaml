@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mauitut.MainPage">
+
+
+    <Frame Margin="20,20,20,20"
+       
+    CornerRadius="0"
+    HasShadow="True"
+      
+   >
+        <VerticalStackLayout
+            
+         >
+
+            <Label Text="Contact US" FontSize="20" TextColor="DarkSlateGray" FontAttributes="Bold" Margin="10,30,5,10" />
+            <Label Text="We'll get back to you within 1-2 business days." TextColor="DarkSlateGray" FontSize="14" Margin="10,10,5,10" />
+
+            <StackLayout>
+                <Label Text="Full Name" FontAttributes="Bold" FontSize="15" Margin="10,30,5,10"  />
+                <Frame WidthRequest="300" >
+                 <!--   <Entry
+                 Placeholder="Enter text here"
+                   HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center"/> -->
+                </Frame>
+                <Label Text="Organization" FontAttributes="Bold" FontSize="15" Margin="10,10,5,10" />
+                <Frame WidthRequest="300" >
+                    <!--   <Entry
+   Placeholder="Enter text here"
+     HorizontalOptions="FillAndExpand"
+   VerticalOptions="Center"/> -->
+                </Frame>
+                <Label Text="Email" FontAttributes="Bold" FontSize="15" Margin="10,10,5,10" />
+                <Frame WidthRequest="300" >
+                    <!--   <Entry
+   Placeholder="Enter text here"
+     HorizontalOptions="FillAndExpand"
+   VerticalOptions="Center"/> -->
+                </Frame>
+                <Label Text="Add your message" FontAttributes="Bold" FontSize="15" Margin="10,10,5,10" />
+                <Frame WidthRequest="300" HeightRequest="140" >
+                    <!--   <Entry
+   Placeholder="Enter text here"
+     HorizontalOptions="FillAndExpand"
+   VerticalOptions="Center"/> -->
+                </Frame>
+                <HorizontalStackLayout Spacing="140" Margin="10,30">
+                    <Button Text="Cancel" Padding="20,10" BackgroundColor="AliceBlue" TextColor="Black" BorderColor="Black" BorderWidth="2"/>
+                    <Button Text="Send" Padding="20,10" BackgroundColor="DarkSlateBlue"></Button>
+                </HorizontalStackLayout>
+            </StackLayout>
+        </VerticalStackLayout>
+        </Frame>
+  
+
+</ContentPage>
